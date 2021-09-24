@@ -1,0 +1,139 @@
+{
+	"name": "Agnes Stewart",
+	"source": "TimeofBlood",
+	"size": "M",
+	"type": {
+		"type": "humanoid",
+		"tags": [
+			"Human"
+		]
+	},
+	"alignment": [
+		"N",
+		"G"
+	],
+	"ac": [
+		13
+	],
+	"hp": {
+		"formula": "7d8",
+		"average": 31
+	},
+	"speed": {
+		"walk": 30
+	},
+	"str": 7,
+	"dex": 16,
+	"con": 10,
+	"int": 14,
+	"wis": 14,
+	"cha": 12,
+	"save": {
+		"dex": "+6",
+		"int": "+5"
+	},
+	"skill": {
+		"perception": "+8",
+		"sleight of hand": "+6",
+		"stealth": "+9",
+		"insight": "+8",
+		"investigation": "+8",
+		"deception": "+4"
+	},
+	"passive": 18,
+	"languages": [
+		"Thieves' cant",
+		"Dementlieuse",
+		"Mordentish",
+		"Darkonese"
+	],
+	"cr": "5",
+	"trait": [
+		{
+			"name": "Cunning Action",
+			"entries": [
+				"On each of its turns, Agnes can use a bonus action to take the Dash, Disengage, or Hide action."
+			]
+		},
+		{
+			"name": "Evasion",
+			"entries": [
+				"If Agnes is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, Agnes instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+			]
+		},
+		{
+			"name": "Sneak Attack (1/Turn)",
+			"entries": [
+				"Agnes deals an extra 14 ({@damage 4d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Agnes that isn't {@condition incapacitated} and Agnes doesn't have disadvantage on the attack roll."
+			]
+		},
+		{
+			"name": "Master of Tactics",
+			"entries": [
+				"Agnes can use the Help action as a bonus action. Additionally, when Agnes uses the Help action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than within 5 feet of Agnes, if the target can see or hear you."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Dagger",
+			"entries": [
+				"{@atk ml} {@hit 7} to hit, one target. {@h}6 ({@damage 1d4 + 4}) piercing damage."
+			]
+		}
+	],
+	"reaction": [
+		{
+			"name": "Uncanny Dodge",
+			"entries": [
+				"Agnes halves the damage that it takes from an attack that hits it. Agnes must be able to see the attacker."
+			]
+		}
+	],
+	"environment": [
+		"urban"
+	],
+	"traitTags": [
+		"Sneak Attack"
+	],
+	"languageTags": [
+		"TC"
+	],
+	"damageTags": [
+		"P"
+	],
+	"hasFluff": true,
+	"tokenUrl": "https://dm2301files.storage.live.com/y4mk9u-EVCKW5-pPWVW3aj3FWunx9Z1A-VGJBaIRKlR7rjBjeLpiYhr5gAPcQMEIRxDyx7aTdNxd9AV_m5m7AuTBf7UOajl4gcgtatjb0yl-2IAKimN6V7VDHktD3ysy0cy2w2LyYXqvjtsE3j3seCAAEFpGTR_Wlt90JlmAu9F9S8fD_RmsF9z-BYqmd4BWMoQIfSEQbZS6LItxX9yCRmv6w/Token_Agnes.png?psid=1&width=256&height=256&cropMode=center",
+	"fluff": {
+		"entries": [
+			{
+				"type": "entries",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Agnes Stewart is a retired adventurer that occupies her time providing assistance in various investigations. Her areas of expertise are cults and secret organizations."
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"images": [
+			{
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://dm2301files.storage.live.com/y4mR6Du0HxKrb4qwsBxCIW5NCHh63Spl99UCOfXu9TSivGnamZCJ963RgcrrYpsO_ySUO_bCKQ84dMpwIqSYI7oK6TGJlIs67wi5Iy2HOeHDGF0NxxjhabE5Y5wrQFpuUUar8Ffzd0ImWhCUzCX-35-xGuzFeCSvvcMNnQuOAUOEl0D75lY4vgbPJjG8WRu03KSocAheK3NmBUixlZzZfDOrw/AgnesStewart.jpg?psid=1&width=595&height=806"
+				}
+			}
+		]
+	},
+	"isNpc": true,
+	"level": 7,
+	"shortName": true
+}

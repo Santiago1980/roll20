@@ -1,0 +1,24 @@
+{
+	"fileType": "bestiary-sublist",
+	"siteVersion": "1.134.0",
+	"items": [
+		{
+			"h": "gelenthos%20selqunir_timeofblood",
+			"c": 1,
+			"customHashId": null
+		},
+		{
+			"h": "patrice_timeofblood",
+			"c": 1,
+			"customHashId": null
+		},
+		{
+			"h": "agnes%20stewart_timeofblood",
+			"c": 1,
+			"customHashId": null
+		}
+	],
+	"sources": [
+		"TimeofBlood"
+	]
+}
